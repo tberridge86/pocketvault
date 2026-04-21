@@ -5,8 +5,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const EBAY_CLIENT_ID = process.env.EBAY_CLIENT_ID;
-const EBAY_CLIENT_SECRET = process.env.EBAY_CLIENT_SECRET;
+const EBAY_CLIENT_ID = 'TomBerri-pocketva-PRD-a84c0e5fe-afeb98cd';
+const EBAY_CLIENT_SECRET = 'PRD-6c21b7a22aaf-d673-4dda-b548-7e84';
 const EBAY_MARKETPLACE_ID = process.env.EBAY_MARKETPLACE_ID || 'EBAY_GB';
 const PORT = process.env.PORT || 3001;
 
